@@ -1,4 +1,5 @@
-﻿import { FluentBundle, FluentResource, FluentVariable } from '@fluent/bundle';
+﻿import { FluentBundle, FluentResource } from '@fluent/bundle';
+import type { FluentVariable } from '@fluent/bundle';
 import { negotiateLanguages } from '@fluent/langneg';
 import fs from 'fs';
 import path from 'path';

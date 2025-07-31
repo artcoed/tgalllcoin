@@ -18,11 +18,13 @@
     "erasableSyntaxOnly": true,
     "noFallthroughCasesInSwitch": true,
     "noUncheckedSideEffectImports": true,
-    "baseUrl": ".", // Required for paths to work
+    "baseUrl": "./", // Required for paths to work
     "paths": {
       "@/*": ["src/*"], // Default alias for src
       "@server/*": ["../server/src/*"] // Alias for server directory
     }
   },
-  "include": ["src"]
+  "include": [
+    "src"
+  ]
 }

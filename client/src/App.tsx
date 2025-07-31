@@ -1,5 +1,5 @@
 import React from 'react';
-import { trpc } from './trpc';
+import { trpc } from './trpc.ts';
 
 const App: React.FC = () => {
     // Пример запроса (query)
