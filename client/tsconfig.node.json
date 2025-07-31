@@ -24,5 +24,7 @@
     /* Add Node.js types */
     "types": ["node"] // Include Node.js globals like __dirname and path
   },
-  "include": ["vite.config.ts"]
+  "include": [
+    "vite.config.ts"
+  ]
 }

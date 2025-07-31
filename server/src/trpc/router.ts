@@ -3,7 +3,7 @@
 // Initialize tRPC
 const t = initTRPC.create();
 
-// Export publicProcedure and router for use in procedures.ts
+// Export publicProcedure and router.ts for use in procedures.ts
 export const publicProcedure = t.procedure;
 export const router = t.router;
 
